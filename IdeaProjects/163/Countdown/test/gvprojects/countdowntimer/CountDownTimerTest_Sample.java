@@ -29,11 +29,6 @@ public class CountDownTimerTest_Sample {
    // (Make sure the method handles 0s correctly)
 
 
-   @Test
-   public void defaultConstructorSetsTimeToZero() throws Throwable {
-      CountDownTimer timer = new CountDownTimer();
-      assertEquals(0, timer.totalSeconds());
-   }
    // The test above should be sufficient  for the default constructor
 
 

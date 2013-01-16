@@ -1,12 +1,11 @@
 package gvprojects.Converter;
 
-/**
+/*********************************
  * Created with IntelliJ IDEA.
  * User: mitchherrema
  * Date: 1/11/13
  * Time: 9:47 AM
- * To change this template use File | Settings | File Templates.
- */
+ ********************************/
 public class converter {
 
     public static void Convert(int num, int base1, int base2) {
@@ -43,7 +42,7 @@ public class converter {
     }
 
     public static void main(String[] args) {
-        Convert(1000, 2, 5);
+        Convert(-200, 10, 5);
     }
 
 }

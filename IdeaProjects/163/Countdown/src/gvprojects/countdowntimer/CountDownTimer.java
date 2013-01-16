@@ -41,6 +41,9 @@ public class CountDownTimer {
     public void subtract(int seconds){
 
     }
+    public void dec(){
+
+    }
     public String toString(){
 
     }
